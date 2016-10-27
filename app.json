@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/contacts/constact",
+    "pages/finds/myfind",
+    "pages/mes/me",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#393a3d",
+    "navigationBarTitleText": "微信",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar":{
+    "color":"#9b9db1",
+    "selectedColor":"#3cc51f",
+    "borderStyle":"black",
+    "backgroundColor":"#ffffff",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "iconPath":"images/wechat.png",
+        "selectedIconPath":"images/wechatHL.png",
+        "text":"消息"
+      },
+      {
+        "pagePath":"pages/contacts/constact",
+        "iconPath":"images/wechat.png",
+        "selectedIconPath":"images/wechatHL.png",
+        "text":"通讯录"
+      },
+      {
+        "pagePath":"pages/finds/myfind",
+        "iconPath":"images/wechat.png",
+        "selectedIconPath":"images/wechatHL.png",
+        "text":"发现"
+      },
+      {
+        "pagePath":"pages/mes/me",
+        "iconPath":"images/wechat.png",
+        "selectedIconPath":"images/wechatHL.png",
+        "text":"我"
+      }
+    ]
+   }
+}
