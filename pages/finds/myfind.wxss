@@ -1,0 +1,42 @@
+.item{
+    display: flex;
+    width: 100%;
+    padding-left: 35rpx;
+    padding-top: 10rpx;
+    padding-bottom: 10rpx;
+    flex-direction: row;
+    background-color:white;
+}
+.img{
+    width: 100rpx;
+    height: 100rpx;
+    margin-right: 30rpx;
+}
+.content{
+    display: flex;
+    align-items: center;
+    height: 100rpx;
+}
+.text{
+    font-family: '微软雅黑';
+    color: black;
+    font-size: 30rpx;
+}
+.line{
+    height: 2rpx;
+    background-color: #aaa;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+}
+.line2{
+    height: 40rpx;
+    width:100%;
+    background-color: #ebebeb;
+}
+.last{
+    display: flex;
+    height:200rpx;
+    flex-direction: column;
+    flex: 1;
+    background-color: #ebebeb;
+}

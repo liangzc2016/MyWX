@@ -1,0 +1,80 @@
+<view style="backgroud-color:#ebebeb;overflow-x:hidden;overflow-y:auto">
+    <view class="line2"></view>
+    <!--顶部-->
+    <navigator>
+    <view class="top">
+         <image class="img1" src="{{img1}}"></image>
+         <view class="title1">
+              <text class="content1">{{title1}}</text>
+         </view>
+         <image class="img_right" src="{{imgr}}"></image>
+    </view>
+    </navigator>
+
+    <view class="line2"></view>
+    <!--相册-->
+    <navigator>
+    <view class="other">
+          <image class="img2" src="{{img2}}"></image>
+          <view class="title">
+              <text class="content">{{title2}}</text>
+          </view>
+    </view>
+    </navigator>
+    <view class="line1"></view>
+    <!--收藏-->
+    <navigator>
+    <view class="other">
+          <image class="img2" src="{{img3}}"></image>
+          <view class="title">
+              <text class="content">{{title3}}</text>
+          </view>
+    </view>
+    </navigator>
+
+    <view class="line2"></view>
+    <!--钱包-->
+    <navigator>
+    <view class="other">
+          <image class="img2" src="{{img3}}"></image>
+          <view class="title">
+              <text class="content">{{title4}}</text>
+          </view>
+    </view>
+    </navigator>
+    <view class="line1"></view>
+    <!--卡包-->
+    <navigator>
+    <view class="other">
+          <image class="img2" src="{{img4}}"></image>
+          <view class="title">
+              <text class="content">{{title5}}</text>
+          </view>
+    </view>
+    </navigator>
+
+     <view class="line2"></view>
+    <!--表情-->
+    <navigator>
+    <view class="other">
+          <image class="img2" src="{{img4}}"></image>
+          <view class="title">
+              <text class="content">{{title6}}</text>
+          </view>
+    </view>
+    </navigator>
+
+     <view class="line2"></view>
+    <!--设置-->
+    <navigator>
+    <view class="other">
+          <image class="img2" src="{{img4}}"></image>
+          <view class="title">
+              <text class="content">{{title7}}</text>
+          </view>
+          <image class="version" src="{{version}}" wx:if="{{newVersion}}"></image>
+    </view>
+    </navigator>
+
+
+</view>

@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view style="overflow-x:hidden;overflow-y:auto">
+ <view class="messageList">
+   <block wx:for="{{messages}}">
+      <navigator url="">
+        <view class="item">
+        <!--头像部分-->
+          <view class="item-left">
+             <image class="image" src="{{item.url}}"></image>
+             <view class="mark" wx:if="{{item.num>0}}"><text class="text">{{item.num}}</text></view>
+          </view>
+          <!--中间消息-->
+          <view class="item-middle">
+            <view ><text class="title">{{item.title}}</text></view>
+            <view><text class="message">{{item.message}}</text></view>
+          </view>
+          <!--右边部分-->
+          <view class="item-right">
+            <view class="item-right1"><text class="time">{{item.time}}</text></view>
+            <view wx:if="{{!item.remove}}" class="item-right2"><image src="{{item.flag}}" class="img_flag"></image></view>
+          </view>
+        </view>
+        <view class="line"></view>
+      </navigator>
+   </block>
+ </view>
+</view>

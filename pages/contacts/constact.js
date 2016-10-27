@@ -1,0 +1,84 @@
+var app = getApp()
+Page({
+  data:{
+    mycontacts:[
+      {
+        img:"/images/wechatHL.png",
+        name:"新的朋友",
+        showline:true,
+        group:false
+    },
+    {
+        img:"/images/wechat.png",
+        name:"群聊",
+        showline:true,
+        group:false
+    },
+    {
+        img:"/images/wechat.png",
+        name:"标签",
+        showline:true,
+        group:false
+    },
+    {
+        img:"/images/wechatHL.png",
+        name:"公众号",
+        showline:false,
+        group:false
+    },
+    {
+        img:"/images/wechatHL.png",
+        name:"Afriend1",
+        showline:true,
+        group:true,
+        groupName:'A'
+    },
+    {
+        img:"/images/wechatHL.png",
+        name:"Afriend2",
+        showline:true,
+        group:false
+    },
+     {
+        img:"/images/wechatHL.png",
+        name:"Afriend3",
+        showline:false,
+        group:false
+    },{
+        img:"/images/wechatHL.png",
+        name:"Bfriend",
+        showline:false,
+        group:true,
+        groupName:'B'
+    },
+    {
+        img:"/images/wechatHL.png",
+        name:"Cfriend",
+        showline:true,
+        group:true,
+        groupName:'C'
+    },
+    {
+        img:"/images/wechatHL.png",
+        name:"Cfriend",
+        showline:false,
+        group:false,
+        groupName:''
+    }]
+  },
+  onLoad:function(options){
+    // 页面初始化 options为页面跳转所带来的参数
+  },
+  onReady:function(){
+    // 页面渲染完成
+  },
+  onShow:function(){
+    // 页面显示
+  },
+  onHide:function(){
+    // 页面隐藏
+  },
+  onUnload:function(){
+    // 页面关闭
+  }
+})

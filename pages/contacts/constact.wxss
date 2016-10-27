@@ -1,0 +1,52 @@
+.scroll_view{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    width: 100%;
+    height:100rpx;
+    flex-direction: row;
+    margin: 20rpx;
+    margin-right: 20rpx;
+}
+.image{
+    width: 100rpx;
+    height: 100rpx;
+}
+.item-middle{
+    flex: 1;
+}
+.name{
+    height: 100rpx;
+    display: flex;
+    align-items: center;
+    margin-left: 20rpx;
+}
+.uname{
+    color: black;
+    font-size: 20rpx;
+    font-family: "微软雅黑";
+}
+.line1{
+    height:1rpx;
+    background-color: #aaa;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+}
+.line2{
+    display: flex;
+    height:40rpx;
+    background-color: #aaa;
+    color: white;
+    font-size: 20rpx;
+    text-align: left;
+    padding-left: 25rpx;
+    align-items: center;
+}
+.flag{
+    color: white;
+    font-size: 25rpx;
+}
