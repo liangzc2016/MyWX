@@ -21,21 +21,25 @@
 }
 .mark{
   position:relative;
-  width:30rpx;
-  height:30rpx;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width:35rpx;
+  height:35rpx;
   border-radius: 50%;
   background-color: red;
   color: #ffffff;
-  text-align: center;
   left:-20rpx;
-  font-size: 10rpx; 
-  display:table-cell;
-  padding-left: 2rpx;
+  font-size: 18rpx;
 }
 .text{
+  /*这样设置也可以水平居中*/
+  /*display: block;
+  width: 35rpx;
+  text-align: center;*/
+  margin:0 auto;
   color: #ffffff;
-  font-size: 14rpx;
-  text-align: center
+  font-size: 18rpx; 
 }
 
 .item-middle{
@@ -54,13 +58,15 @@
   text-overflow: ellipsis;/*文字隐藏后添加省略号*/
 }
 .message{
+  font-family:"微软雅黑";
   color: #aaa;
-  font-size: 14rpx;
+  font-size: 18rpx;
   overflow: hidden;
 }
 
 .item-right{
-  display: table-column;
+  display: block;
+  text-align: center;
 }
 /*.item-right1{
   position: relative;
@@ -68,8 +74,9 @@
   display:table-cell;
 }*/
 .time{
+  font-family:"微软雅黑";
   color: #aaa;
-  font-size: 14rpx;
+  font-size: 18rpx;
   text-align: center;
   top: 20rpx;
 }
@@ -81,13 +88,8 @@
   height: 30rpx;
 }*/
 .img_flag{
-  position: relative;
   width: 30rpx;
   height: 30rpx;
-  display: table-cell;
-  align-content: center;
-  left: 20rpx;
-  top: 10rpx;
 }
 .line{
   width: 100%;

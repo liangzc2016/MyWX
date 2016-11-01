@@ -6,9 +6,9 @@ Page({
     messages:[
       {
         url:"http://img1.3lian.com/gif/more/11/201212/0d1252b54be4f2d240b6b7fe4ed35054.jpg",
-        title:"商脉",
+        title:"广东",
         message:'好的',
-        num:2,
+        num:999,
         time:'11:15',
         remove:false,
         flag:'/images/wechat.png'
